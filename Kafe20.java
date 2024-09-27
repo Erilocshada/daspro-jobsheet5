@@ -31,6 +31,7 @@ public class Kafe20 {
                 hargaMenu = 20000;
             break;
             default:
+                System.out.println("Menu Tidak Tersedia");
                 break;
         }
         double totalHarga = jumlah * hargaMenu;
@@ -44,6 +45,7 @@ public class Kafe20 {
             totalHarga = 0.4 * totalHarga;
                 break;
             default:
+            System.out.println("Ukuran yang ada pilih tidak tersedia");
                 break;
         }
         //proses
