@@ -14,7 +14,7 @@ public class PemilihananHariDenganIf {
         dayName = sc.nextInt(); 
 
         if (dayName >= 5) {
-            dayType = "weekdend";
+            dayType = "weekend";
         }else{
             dayType = "weekday";
         }
