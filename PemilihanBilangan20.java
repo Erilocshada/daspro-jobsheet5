@@ -1,20 +1,17 @@
 
 import java.util.Scanner;
 
-public class Percobaan1 {
+public class PemilihanBilangan20 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int angka;
+        String hasil;
 
         System.out.println("Masukan Angka :");
         angka = input.nextInt();
+        hasil = angka %2 == 0 ? "Genap": "Ganjil";
 
-        if (angka % 2 == 0) {
-            System.out.println("Angka" + " " + angka +" "+ "Termasuk Bilangan Genap");
-
-        }else{
-            System.out.println("Angka" + " " + angka + " " + "Termasuk Bilangan Ganjil");
-        }
+        System.out.println(" Angka " + angka + " adalah " + hasil);
         input.close();
         }
     }
